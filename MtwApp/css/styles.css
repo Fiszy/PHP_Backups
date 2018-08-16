@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500|Oswald');
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background: #E6E6FA;
+    line-height: 1px;
+}
+#header_wrapper{
+    width: 100%;
+    height: 100px;
+    border-bottom: 5px solid brown;
+    background: #8A2387;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 10px;
+    font-family: 'Merienda', cursive;
+}
+
+#loginform {
+    float: right;
+    line-height: 100px;
+    margin-right: 80px;
+}
+#loginform input{
+    width: 150px;
+    height: 20px;
+    padding: 10px;
+    border: 12px;
+    border-radius: 10px;
+    font-family: 'Merienda', cursive;
+}
+#loginform button{
+    width: 100px;
+    padding: 10px;
+    background: #16546B;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 10px;
+    font-family: 'Merienda', cursive;
+    font-size: 15px;
+    border: none;
+    border-radius: 50px;
+    
+}
+#loginform button:hover{
+    cursor: pointer;
+    background-color: #E53F59;
+    transition: 0.5s background;
+    border-radius: 50px;
+}
+#footer {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border-top: 5px solid brown;
+    clear: both;
+    background: #8A2387;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387); 
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387); 
+    text-align: center; 
+    line-height: 50%;
+    margin-top: 20px;
+}
+#header_wrapper img {
+    width: 290px;
+    height: 100px;
+    margin-left: 150px;
+    line-height: 50px;
+    border: none;
+    border-radius: 50px; 
+}
+.form2 {
+    float: right;
+    margin-top: -630px;
+    margin-right: 130px;
+    background: #EAF3FC;
+    padding-left: 50px;  
+    padding-right: 50px;  
+    padding-top: 30px;  
+    padding-bottom: 30px;
+    width: 30%;  
+}
+.form2 td{
+    padding: 15px;
+}
+.form2 input {
+    width: 250px;
+    height: 20px;
+    padding: 10px;
+    border: 12px;
+    border-radius: 10px;
+    font-family: 'Merienda', cursive;
+}
+.btnsign {
+    width: 100px;
+    padding: 10px;
+    background: #16546B;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 10px;
+    font-family: 'Merienda', cursive;
+    font-size: 15px;
+    border: none;
+    border-radius: 50px;
+}
+.homeimg {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+select {
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bolder;
+     font-family: 'Merienda', cursive;
+}
+
+
