@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+table {
+    margin-top: 20px;
+    background: #ee0979;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+body {
+    background: #34e89e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+
+input[type=submit]{
+    height: 40px;
+    width: 170px;
+    border-radius: 10px;
+    background: rgb(47, 205, 144);
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    shadow: 7px 4px 63px 0px rgba(230,203,25,1);
+    shadow: 7px 4px 63px 0px rgba(230,203,25,1);
+    shadow: 7px 4px 63px 0px rgba(230,203,25,1);
+}
+input[type=submit]:hover{
+    cursor: pointer;
+}
+h1 {
+    color: white;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 5px;
+}
+b {
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 0.5px;
+}

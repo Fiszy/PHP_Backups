@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates');
+@import url('https://fonts.googleapis.com/css?family=Lato:300i,400');
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background: #34e89e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+.wrapper {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    background: white;
+}
+.header {
+    width: 1000px;
+    height: 100px;
+    border-bottom: 6px groove #f90;
+    background-image: url(../images/header.jpg);  
+}
+.left {
+    width: 794px;
+    height: 800px;
+    background-image: url(../images/body.jpg);
+    float: left;
+}
+.right {
+    width: 200px;
+    height: 800px;
+    border-left: 6px groove #f90;
+    float: right;
+    background-color: #1076a6; 
+}
+.right a {
+    padding: 20px;
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 17px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.right a:hover {
+    text-decoration: underline;
+    color: orange;
+    font-weight: bold;  
+}
+.right h2 {
+    background: white;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 0.4ch;
+}
