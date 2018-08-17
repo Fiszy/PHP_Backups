@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <title>Login Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+ </head>
+<body>
+    
+    <div class="container">
+        <div class="login-form col-md-4">
+                <h1 class="title">Login Here </h1>
+                <form action="signup.php" method="post">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" name="username" required class="form-control">
+                    </div>
+                    <div class="form-group">
+                            <label for="pwd">Password</label>
+                            <input type="password" name="pass" required class="form-control">
+                    </div>
+                    <div class="form-group">
+                            <input type="checkbox" name="checkbox" required > Remember Me
+                    </div>
+
+                    <input type="submit" name="submit" ><br>
+                    <div class="form-group">
+                            <a href="#">Forgot Password?</a>
+                    </div>
+                </form>
+            
+            
+        </div>
+        
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script> 
+
+</body>
+</html>
